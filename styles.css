@@ -22,6 +22,7 @@ body{
 }
 nav{
     display: flexbox;
+    flex-direction: row;
 }
 ul{
     width: 33vw;
@@ -31,7 +32,25 @@ ul{
 }
 li{
     
-    color: white;
+    color: rgb(248, 237, 242);
+}
+#top-bar{
+    width: 33vw;
+    height: 100px;
+    width: 100%;
+    border: solid 1px olivedrab;
+    background-color: gray;
+}
+#bar{
+    width: 50vw;
+   
+    border: solid 1px rgb(218, 99, 20);
+    background-color: gray;
+}
+#image{
+    width: 33vw;
+    display: flex;
+    justify-content: space-around;
 }
 #parent{
     display: flex;
